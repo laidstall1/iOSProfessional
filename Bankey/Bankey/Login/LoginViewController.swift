@@ -23,6 +23,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         style()
         layout()
+       
     }
 }
 
@@ -90,7 +91,7 @@ extension LoginViewController {
         if username == "Kelvin" && password == "Welcome" {
             signInButton.configuration?.showsActivityIndicator = true
         } else {
-            configureView(withMessage: "Incorrect username / password   . gu  d")
+            configureView(withMessage: "Incorrect username / password.")
         }
     }
     
